@@ -134,7 +134,7 @@ export function FeaturesSection() {
                 <p className="text-zinc-500 text-sm mb-5">Никаких правил. Полная свобода действий. Выживи любой ценой!</p>
                 <div className="mt-auto space-y-3">
                   {[
-                    { emoji: "💀", label: "Без правил", desc: "Всё разрешено" },
+                    { emoji: "💀", label: "Хаос и свобода", desc: "Выживает сильнейший" },
                     { emoji: "⚔️", label: "PvP везде", desc: "Никаких зон мира" },
                     { emoji: "🏴", label: "Гриферство", desc: "Разрушай чужое" },
                   ].map((item, i) => (
