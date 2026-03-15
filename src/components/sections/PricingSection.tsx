@@ -140,7 +140,7 @@ export function PricingSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-5 gap-4 mb-16">
+        <div className="grid md:grid-cols-5 gap-4 mb-16 rounded-none">
           {plans.map((plan) => (
             <div
               key={plan.name}
@@ -151,9 +151,7 @@ export function PricingSection() {
               <div className="mb-4">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-xl">{plan.emoji}</span>
-                  <span className={`text-xs font-bold px-2 py-0.5 rounded-full font-mono ${plan.tagStyle}`}>
-                    [{plan.tag}]
-                  </span>
+                  <span className={`text-xs font-bold px-2 py-0.5 rounded-full font-mono ${plan.tagStyle}`}>Медиа</span>
                 </div>
                 <h3 className="font-heading text-base font-semibold text-zinc-100 mb-1">{plan.name}</h3>
                 <p className="text-xs text-zinc-500 leading-relaxed">{plan.description}</p>
